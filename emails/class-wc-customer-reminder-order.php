@@ -25,8 +25,7 @@ class WC_BBB_Customer_Reminder_Order extends WC_Email
         // For admin area to let the user know we are sending this email to customers.
         $this->customer_email = true;
         $this->heading = __('Zahlungserinnerung', 'bbb-custom-emails');
-        // translators: placeholder is {blogname}, a variable that will be substituted when email is sent out
-        $this->subject = sprintf(_x('Zahlungserinnerung: Deine Bestellung bei SafeBOXen vom [%s]', 'default email subject for cancelled emails sent to the customer', 'custom-wc-email'), '{order_date}');
+        $this->subject = sprintf(_x('Zahlungserinnerung: Deine Bestellung bei SafeBOXen vom %s', 'Standard Betreff für die Erinnerungsmail', 'bbb-custom-emails'), '{order_date}');
 
         $this->placeholders = array(
             '{site_title}' => $this->get_blogname(),
@@ -39,9 +38,6 @@ class WC_BBB_Customer_Reminder_Order extends WC_Email
         $this->template_plain = 'emails/plain/wc-customer-reminder-order.php';
         $this->template_base = BBB_CUSTOM_EMAIL_PATH . 'templates/';
 
-        // Action to which we hook onto to send the email.
-        // add_action('woocommerce_order_status_pending_to_cancelled_notification', array($this, 'trigger'));
-        // add_action('woocommerce_order_status_on-hold_to_cancelled_notification', array($this, 'trigger'));
         parent::__construct();
     }
 
