@@ -1,0 +1,81 @@
+# Copyright (C) 2019 BigBoxBerlin Custom Emails
+# This file is distributed under the same license as the BigBoxBerlin Custom Emails package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BigBoxBerlin Custom Emails\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.7\n"
+"Last-Translator: \n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: emails/class-wc-customer-cancel-order.php:23
+msgid "Stornierte Bestellungsemail"
+msgstr "Cancelled order email"
+
+#: emails/class-wc-customer-cancel-order.php:24
+msgid "Email bei stornierter Bestellung."
+msgstr ""
+
+#: emails/class-wc-customer-cancel-order.php:27
+msgid "Bestellung storniert"
+msgstr ""
+
+#: emails/class-wc-customer-reminder-order.php:23
+msgid "Zahlungserinnerungsemail"
+msgstr "Payment reminder email"
+
+#: emails/class-wc-customer-reminder-order.php:24
+msgid "Erinnerungsmail, welche nach einem Zeitraum gesendet wird."
+msgstr ""
+
+#: emails/class-wc-customer-reminder-order.php:27
+msgid "Zahlungserinnerung"
+msgstr "Payment reminder"
+
+#: emails/class-wc-customer-reminder-order.php:28
+msgctxt "Standard Betreff für die Erinnerungsmail"
+msgid "Zahlungserinnerung: Deine Bestellung bei SafeBOXen vom %s"
+msgstr "Payment reminder: Your order at SafeBOXen from %s"
+
+#: templates/emails/wc-customer-reminder-order.php:13,
+#: templates/emails/plain/wc-customer-reminder-order.php:22
+msgid ""
+"Leider haben wir für Deine Schließfach-Bestellung mit der Bestell-Nr. #%1$s "
+"vom %2$s noch keinen Zahlungseingang verzeichnen können."
+msgstr ""
+"Unfortunately, we could not register a payment for your locker order with "
+"the order number #%1$s from %2$s."
+
+#: templates/emails/wc-customer-reminder-order.php:14,
+#: templates/emails/plain/wc-customer-reminder-order.php:23
+msgid ""
+"Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht "
+"ausgeglichen wurde. Wir bitten Dich daher höflich um Ausgleich des Betrags "
+"innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der "
+"Frist wird Deine Bestellung automatisch storniert."
+msgstr ""
+"We kindly ask you to balance the amount within the next 5 days on the bank "
+"account below. After the deadline, your order will automatically be "
+"cancelled."
+
+#: templates/emails/wc-customer-reminder-order.php:15,
+#: templates/emails/plain/wc-customer-reminder-order.php:24
+msgid ""
+"Solltest Du den Betrag in den letzten Tagen bereits überwiesen haben, so "
+"betrachte bitte dieses Schreiben als gegenstandslos."
+msgstr ""
+"If you have already transferred the amount in the last days, then please "
+"regard this e-mail as not having been sent."
