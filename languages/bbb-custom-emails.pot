@@ -1,5 +1,6 @@
 # Copyright (C) 2019 BigBoxBerlin Custom Emails
 # This file is distributed under the same license as the BigBoxBerlin Custom Emails package.
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: BigBoxBerlin Custom Emails\n"
@@ -7,11 +8,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2019-04-11 19:35+0000\n"
+"X-Generator: Loco https://localise.biz/"
 
 #: emails/class-wc-customer-cancel-order.php:23
 msgid "Stornierte Bestellungsemail"
@@ -22,10 +29,12 @@ msgid "Email bei stornierter Bestellung."
 msgstr ""
 
 #: emails/class-wc-customer-cancel-order.php:27
+msgctxt "Order cancelled"
 msgid "Bestellung storniert"
 msgstr ""
 
 #: emails/class-wc-customer-reminder-order.php:23
+msgctxt "Payment reminder email"
 msgid "Zahlungserinnerungsemail"
 msgstr ""
 
@@ -34,6 +43,7 @@ msgid "Erinnerungsmail, welche nach einem Zeitraum gesendet wird."
 msgstr ""
 
 #: emails/class-wc-customer-reminder-order.php:27
+msgctxt "Payment reminder"
 msgid "Zahlungserinnerung"
 msgstr ""
 
@@ -42,14 +52,46 @@ msgctxt "Standard Betreff für die Erinnerungsmail"
 msgid "Zahlungserinnerung: Deine Bestellung bei SafeBOXen vom %s"
 msgstr ""
 
-#: templates/emails/wc-customer-reminder-order.php:13, templates/emails/plain/wc-customer-reminder-order.php:22
-msgid "Leider haben wir für Deine Schließfach-Bestellung mit der Bestell-Nr. #%1$s vom %2$s noch keinen Zahlungseingang verzeichnen können."
+#: templates/emails/wc-customer-reminder-order.php:19,
+#: templates/emails/plain/wc-customer-reminder-order.php:29
+msgid ""
+"Leider haben wir für Deine Schließfach-Bestellung mit der Bestell-Nr. #%1$s "
+"vom %2$s noch keinen Zahlungseingang verzeichnen können."
 msgstr ""
 
-#: templates/emails/wc-customer-reminder-order.php:14, templates/emails/plain/wc-customer-reminder-order.php:23
-msgid "Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht ausgeglichen wurde. Wir bitten Dich daher höflich um Ausgleich des Betrags innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der Frist wird Deine Bestellung automatisch storniert."
+#: templates/emails/wc-customer-reminder-order.php:20,
+#: templates/emails/plain/wc-customer-reminder-order.php:30
+msgid ""
+"Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht "
+"ausgeglichen wurde. Wir bitten Dich daher höflich um Ausgleich des Betrags "
+"innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der "
+"Frist wird Deine Bestellung automatisch storniert."
 msgstr ""
 
-#: templates/emails/wc-customer-reminder-order.php:15, templates/emails/plain/wc-customer-reminder-order.php:24
-msgid "Solltest Du den Betrag in den letzten Tagen bereits überwiesen haben, so betrachte bitte dieses Schreiben als gegenstandslos."
+#: templates/emails/wc-customer-reminder-order.php:21,
+#: templates/emails/plain/wc-customer-reminder-order.php:31
+msgid ""
+"Solltest Du den Betrag in den letzten Tagen bereits überwiesen haben, so "
+"betrachte bitte dieses Schreiben als gegenstandslos."
+msgstr ""
+
+#: templates/emails/wc-customer-reminder-order.php:22,
+#: templates/emails/plain/wc-customer-reminder-order.php:32
+msgctxt "Kind regards,"
+msgid "Viele Grüße,"
+msgstr ""
+
+#: templates/emails/wc-customer-reminder-order.php:23,
+#: templates/emails/plain/wc-customer-reminder-order.php:33
+msgctxt "Your SafeBOXen-Team"
+msgid "Dein SafeBOXen-Team"
+msgstr ""
+
+#: templates/emails/plain/wc-customer-cancelled-order.php:22
+msgctxt ""
+"Your order # %1$s from %2$s has been cancelled due to not receiving a "
+"payment. Your order was as follows:"
+msgid ""
+"Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung "
+"storniert. Die Bestellung war wie folgt:"
 msgstr ""
