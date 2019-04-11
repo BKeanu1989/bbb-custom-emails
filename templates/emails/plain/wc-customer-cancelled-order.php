@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 echo "= " . $email_heading . " =\n\n";
-echo sprintf(__('The order #%d has been cancelled. The order details:', 'woocommerce'), $order->id) . "\n\n";
+echo sprintf( __( 'Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung storniert. Die Bestellung war wie folgt:', 'bbb-custom-emails' ), $order_number, $date_formatted ) . "\n\n";
 echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n\n";
 /**
  * @hooked WC_Emails::order_details() Shows the order details table.

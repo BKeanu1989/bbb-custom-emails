@@ -8,9 +8,15 @@ if (!defined('ABSPATH')) {
 /**
  * @hooked WC_Emails::email_header() Output the email header
  */
-do_action('woocommerce_email_header', $email_heading, $email);?>
+do_action('woocommerce_email_header', $email_heading, $email);
 
- <p><?php printf( __( 'The order #%1$s from %2$s has been cancelled. The order was as follows:', 'woocommerce' ), $order->get_order_number(), $order->get_formatted_billing_full_name() ); ?></p>
+$order_number = $order->get_order_number();
+$order_date = $order->get_date_created();
+$date_object = new DateTime($order_date);
+$date_formatted = $date_object->format('Y-m-d');
+?>
+
+ <p><?php printf( __( 'Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung storniert. Die Bestellung war wie folgt:', 'woocommerce' ), $order_number, $date_formatted ); ?></p>
 <?php
 /**
  * @hooked WC_Emails::order_details() Shows the order details table.
