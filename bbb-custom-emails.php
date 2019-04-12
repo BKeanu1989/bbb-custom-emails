@@ -3,13 +3,13 @@
  * Plugin Name: BigBoxBerlin eigene emails
  * Version: 0.1.0
  * Author: Kevin Fechner
+ * Description: Dieses Plugin fügt Erinnerungs- und Stornoemails hinzu. 
  * Text Domain: bbb-custom-emails
  * Domain Path: /languages
  */
 if (!defined('ABSPATH')) {
     return;
 }
-
 
 /**
  * Class BBB_Custom_WC_Email
