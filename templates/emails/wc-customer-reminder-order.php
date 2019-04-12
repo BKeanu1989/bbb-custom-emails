@@ -17,7 +17,7 @@ $date_formatted = $date_object->format('Y-m-d');
 ?>
 
  <p><?php printf(__('Leider haben wir für Deine Schließfach-Bestellung mit der Bestell-Nr. #%1$s vom %2$s noch keinen Zahlungseingang verzeichnen können.', 'bbb-custom-emails'), $order_number, $date_formatted) ?></p>
- <p><?php printf(__('Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht ausgeglichen wurde. Wir bitten Dich daher höflich um Ausgleich des Betrags innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der Frist wird Deine Bestellung automatisch storniert.', 'bbb-custom-emails')) ?></p>
+ <p><?php printf(__('Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der Frist wird Deine Bestellung automatisch storniert.', 'bbb-custom-emails')) ?></p>
  <p><?php printf(__('Solltest Du den Betrag in den letzten Tagen bereits überwiesen haben, so betrachte bitte dieses Schreiben als gegenstandslos.', 'bbb-custom-emails')) ?></p>
  <p><?php printf(__('Viele Grüße,', 'bbb-custom-emails')) ?></p>
  <p><?php printf(__('Dein SafeBOXen-Team', 'bbb-custom-emails')) ?></p>
