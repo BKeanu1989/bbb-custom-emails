@@ -12,8 +12,8 @@ msgstr ""
 "esc_html_x:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"POT-Creation-Date: 2019-04-11 19:35+0000\n"
-"PO-Revision-Date: 2019-04-11 19:40+0000\n"
+"POT-Creation-Date: 2019-04-12 08:28+0000\n"
+"PO-Revision-Date: 2019-04-12 08:31+0000\n"
 "Language-Team: English (United States)\n"
 "X-Generator: Loco https://localise.biz/\n"
 "Last-Translator: Kevin <developer.kevinfechner@gmail.com>\n"
@@ -32,12 +32,10 @@ msgid "Email bei stornierter Bestellung."
 msgstr "Email for cancelled order."
 
 #: emails/class-wc-customer-cancel-order.php:27
-msgctxt "Order cancelled"
 msgid "Bestellung storniert"
 msgstr "Order cancelled"
 
 #: emails/class-wc-customer-reminder-order.php:23
-msgctxt "Payment reminder email"
 msgid "Zahlungserinnerungsemail"
 msgstr "Payment reminder email"
 
@@ -46,7 +44,6 @@ msgid "Erinnerungsmail, welche nach einem Zeitraum gesendet wird."
 msgstr "Send a payment reminder email after a certain timeframe."
 
 #: emails/class-wc-customer-reminder-order.php:27
-msgctxt "Payment reminder"
 msgid "Zahlungserinnerung"
 msgstr "Payment reminder"
 
@@ -68,7 +65,7 @@ msgstr ""
 #: templates/emails/plain/wc-customer-reminder-order.php:30
 msgid ""
 "Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht "
-"ausgeglichen wurde. Wir bitten Dich daher höflich um Ausgleich des Betrags "
+"ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags "
 "innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der "
 "Frist wird Deine Bestellung automatisch storniert."
 msgstr ""
@@ -87,23 +84,18 @@ msgstr ""
 
 #: templates/emails/wc-customer-reminder-order.php:22,
 #: templates/emails/plain/wc-customer-reminder-order.php:32
-msgctxt "Kind regards,"
 msgid "Viele Grüße,"
 msgstr "Kind regards,"
 
 #: templates/emails/wc-customer-reminder-order.php:23,
 #: templates/emails/plain/wc-customer-reminder-order.php:33
-msgctxt "Your SafeBOXen-Team"
 msgid "Dein SafeBOXen-Team"
 msgstr "Your SafeBOXen-Team"
 
 #: templates/emails/plain/wc-customer-cancelled-order.php:22
-msgctxt ""
-"Your order # %1$s from %2$s has been cancelled due to not receiving a "
-"payment. Your order was as follows:"
 msgid ""
 "Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung "
 "storniert. Die Bestellung war wie folgt:"
 msgstr ""
-"Your order # %1$s from %2$s has been cancelled due to not receiving a "
-"payment. Your order was as follows:"
+"Your order #%1$s from %2$s has been cancelled due to not receiving a payment."
+" Your order was as follows:"
