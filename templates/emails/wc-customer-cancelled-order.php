@@ -16,7 +16,7 @@ $date_object = new DateTime($order_date);
 $date_formatted = $date_object->format('Y-m-d');
 ?>
 
- <p><?php printf( __( 'Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung storniert. Die Bestellung war wie folgt:', 'woocommerce' ), $order_number, $date_formatted ); ?></p>
+ <p><?php printf( __( 'Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung storniert. Die Bestellung war wie folgt:', 'bbb-custom-emails' ), $order_number, $date_formatted ); ?></p>
 <?php
 /**
  * @hooked WC_Emails::order_details() Shows the order details table.

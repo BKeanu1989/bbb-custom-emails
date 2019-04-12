@@ -42,6 +42,10 @@ msgctxt "Standard Betreff für die Erinnerungsmail"
 msgid "Zahlungserinnerung: Deine Bestellung bei SafeBOXen vom %s"
 msgstr ""
 
+#: templates/emails/wc-customer-cancelled-order.php:19, templates/emails/plain/wc-customer-cancelled-order.php:22
+msgid "Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung storniert. Die Bestellung war wie folgt:"
+msgstr ""
+
 #: templates/emails/wc-customer-reminder-order.php:19, templates/emails/plain/wc-customer-reminder-order.php:29
 msgid "Leider haben wir für Deine Schließfach-Bestellung mit der Bestell-Nr. #%1$s vom %2$s noch keinen Zahlungseingang verzeichnen können."
 msgstr ""
@@ -60,8 +64,4 @@ msgstr ""
 
 #: templates/emails/wc-customer-reminder-order.php:23, templates/emails/plain/wc-customer-reminder-order.php:33
 msgid "Dein SafeBOXen-Team"
-msgstr ""
-
-#: templates/emails/plain/wc-customer-cancelled-order.php:22
-msgid "Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung storniert. Die Bestellung war wie folgt:"
 msgstr ""
