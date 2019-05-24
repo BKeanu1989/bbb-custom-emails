@@ -26,7 +26,7 @@ class WC_BBB_Customer_Cancel_Order extends WC_Email
         $this->customer_email = true;
         $this->heading = __('Bestellung storniert', 'bbb-custom-emails');
         // translators: placeholder is {blogname}, a variable that will be substituted when email is sent out
-        $this->subject = sprintf(_x('[%s] Bestellung storniert', 'default email subject for cancelled emails sent to the customer', 'custom-wc-email'), '{site_title}');
+        $this->subject = sprintf(_x('Stornierung Schließfach-Bestellung [%s]', 'default email subject for cancelled emails sent to the customer', 'custom-wc-email'), '{site_title}');
 
 		$this->placeholders   = array(
 			'{site_title}'   => $this->get_blogname(),
