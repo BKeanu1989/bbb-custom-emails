@@ -19,7 +19,8 @@ if (!defined('ABSPATH')) {
     exit;
 }
 echo "= " . $email_heading . " =\n\n";
-echo sprintf( __( 'Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung storniert. Die Bestellung war wie folgt:', 'bbb-custom-emails' ), $order_number, $date_formatted ) . "\n\n";
+
+echo sprintf( __( 'Die Schließfach-Bestellung #%1$s wurde aufgrund der fehlgeschlagenen PayPal Zahlung abgebrochen. Somit konnten wir Deine Schließfach-Bestellung nicht berücksichtigen. Bitte buche erneut, um Dir ein Schließfach zu sichern. Die Bestellung war wie folgt:', 'bbb-custom-emails' ), $order_number ) . "\n\n";
 echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n\n";
 /**
  * @hooked WC_Emails::order_details() Shows the order details table.
