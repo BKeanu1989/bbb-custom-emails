@@ -42,16 +42,16 @@ msgctxt "Standard Betreff für die Erinnerungsmail"
 msgid "Zahlungserinnerung: Deine Bestellung bei SafeBOXen vom %s"
 msgstr ""
 
-#: templates/emails/wc-customer-cancelled-order.php:19, templates/emails/plain/wc-customer-cancelled-order.php:22
-msgid "Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung storniert. Die Bestellung war wie folgt:"
+#: templates/emails/wc-customer-cancelled-order.php:18, templates/emails/plain/wc-customer-cancelled-order.php:23
+msgid "Die Schließfach-Bestellung #%1$s wurde aufgrund der fehlgeschlagenen PayPal Zahlung abgebrochen. Somit konnten wir Deine Schließfach-Bestellung nicht berücksichtigen. Bitte buche erneut, um Dir ein Schließfach zu sichern. Die Bestellung war wie folgt:"
 msgstr ""
 
 #: templates/emails/wc-customer-reminder-order.php:19, templates/emails/plain/wc-customer-reminder-order.php:29
 msgid "Leider haben wir für Deine Schließfach-Bestellung mit der Bestell-Nr. #%1$s vom %2$s noch keinen Zahlungseingang verzeichnen können."
 msgstr ""
 
-#: templates/emails/wc-customer-reminder-order.php:20, templates/emails/plain/wc-customer-reminder-order.php:30
-msgid "Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der Frist wird Deine Bestellung automatisch storniert."
+#: templates/emails/wc-customer-reminder-order.php:20
+msgid "Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Andernfalls kann deine Bestellung nicht berücksichtigt werden."
 msgstr ""
 
 #: templates/emails/wc-customer-reminder-order.php:21, templates/emails/plain/wc-customer-reminder-order.php:31
@@ -64,4 +64,8 @@ msgstr ""
 
 #: templates/emails/wc-customer-reminder-order.php:23, templates/emails/plain/wc-customer-reminder-order.php:33
 msgid "Dein SafeBOXen-Team"
+msgstr ""
+
+#: templates/emails/plain/wc-customer-reminder-order.php:30
+msgid "Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der Frist wird Deine Bestellung automatisch storniert."
 msgstr ""

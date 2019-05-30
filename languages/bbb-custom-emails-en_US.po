@@ -12,8 +12,8 @@ msgstr ""
 "esc_html_x:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"POT-Creation-Date: 2019-04-12 08:28+0000\n"
-"PO-Revision-Date: 2019-04-12 08:31+0000\n"
+"POT-Creation-Date: 2019-05-24 10:04+0000\n"
+"PO-Revision-Date: 2019-05-24 10:07+0000\n"
 "Language-Team: English (United States)\n"
 "X-Generator: Loco https://localise.biz/\n"
 "Last-Translator: Kevin <developer.kevinfechner@gmail.com>\n"
@@ -52,6 +52,18 @@ msgctxt "Standard Betreff für die Erinnerungsmail"
 msgid "Zahlungserinnerung: Deine Bestellung bei SafeBOXen vom %s"
 msgstr "Payment reminder: Your order at SafeBOXen from %s"
 
+#: templates/emails/wc-customer-cancelled-order.php:18,
+#: templates/emails/plain/wc-customer-cancelled-order.php:23
+msgid ""
+"Die Schließfach-Bestellung #%1$s wurde aufgrund der fehlgeschlagenen PayPal "
+"Zahlung abgebrochen. Somit konnten wir Deine Schließfach-Bestellung nicht "
+"berücksichtigen. Bitte buche erneut, um Dir ein Schließfach zu sichern. Die "
+"Bestellung war wie folgt:"
+msgstr ""
+"The locker-order #%1$s has been cancelled due to failure in the PayPal "
+"payment process. Accordingly, we could not consider your locker order. "
+"Please book again to reserve a locker. Your order has been as follows:"
+
 #: templates/emails/wc-customer-reminder-order.php:19,
 #: templates/emails/plain/wc-customer-reminder-order.php:29
 msgid ""
@@ -61,17 +73,15 @@ msgstr ""
 "Unfortunately, we could not register a payment for your locker order with "
 "the order number #%1$s from %2$s."
 
-#: templates/emails/wc-customer-reminder-order.php:20,
-#: templates/emails/plain/wc-customer-reminder-order.php:30
+#: templates/emails/wc-customer-reminder-order.php:20
 msgid ""
 "Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht "
 "ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags "
-"innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der "
-"Frist wird Deine Bestellung automatisch storniert."
+"innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Andernfalls "
+"kann deine Bestellung nicht berücksichtigt werden."
 msgstr ""
 "We kindly ask you to balance the amount within the next 5 days on the bank "
-"account below. After the deadline, your order will automatically be "
-"cancelled."
+"account below. Otherwise your order cannot be considered."
 
 #: templates/emails/wc-customer-reminder-order.php:21,
 #: templates/emails/plain/wc-customer-reminder-order.php:31
@@ -92,10 +102,13 @@ msgstr "Kind regards,"
 msgid "Dein SafeBOXen-Team"
 msgstr "Your SafeBOXen-Team"
 
-#: templates/emails/plain/wc-customer-cancelled-order.php:22
+#: templates/emails/plain/wc-customer-reminder-order.php:30
 msgid ""
-"Deine Bestellung #%1$s vom %2$s wurde aufgrund von nicht erhaltender Zahlung "
-"storniert. Die Bestellung war wie folgt:"
+"Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht "
+"ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags "
+"innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der "
+"Frist wird Deine Bestellung automatisch storniert."
 msgstr ""
-"Your order #%1$s from %2$s has been cancelled due to not receiving a payment."
-" Your order was as follows:"
+"We kindly ask you to balance the amount within the next 5 days on the bank "
+"account below. After the deadline, your order will automatically be "
+"cancelled."
