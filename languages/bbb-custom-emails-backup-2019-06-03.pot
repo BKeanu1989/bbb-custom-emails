@@ -1,0 +1,71 @@
+# Copyright (C) 2019 BigBoxBerlin Custom Emails
+# This file is distributed under the same license as the BigBoxBerlin Custom Emails package.
+msgid ""
+msgstr ""
+"Project-Id-Version: BigBoxBerlin Custom Emails\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: emails/class-wc-customer-cancel-order.php:23
+msgid "Stornierte Bestellungsemail"
+msgstr ""
+
+#: emails/class-wc-customer-cancel-order.php:24
+msgid "Email bei stornierter Bestellung."
+msgstr ""
+
+#: emails/class-wc-customer-cancel-order.php:27
+msgid "Bestellung storniert"
+msgstr ""
+
+#: emails/class-wc-customer-reminder-order.php:23
+msgid "Zahlungserinnerungsemail"
+msgstr ""
+
+#: emails/class-wc-customer-reminder-order.php:24
+msgid "Erinnerungsmail, welche nach einem Zeitraum gesendet wird."
+msgstr ""
+
+#: emails/class-wc-customer-reminder-order.php:27
+msgid "Zahlungserinnerung"
+msgstr ""
+
+#: emails/class-wc-customer-reminder-order.php:28
+msgctxt "Standard Betreff für die Erinnerungsmail"
+msgid "Zahlungserinnerung: Deine Bestellung bei SafeBOXen vom %s"
+msgstr ""
+
+#: templates/emails/wc-customer-cancelled-order.php:18, templates/emails/plain/wc-customer-cancelled-order.php:23
+msgid "Die Schließfach-Bestellung #%1$s wurde aufgrund der fehlgeschlagenen PayPal Zahlung abgebrochen. Somit konnten wir Deine Schließfach-Bestellung nicht berücksichtigen. Bitte buche erneut, um Dir ein Schließfach zu sichern. Die Bestellung war wie folgt:"
+msgstr ""
+
+#: templates/emails/wc-customer-reminder-order.php:19, templates/emails/plain/wc-customer-reminder-order.php:29
+msgid "Leider haben wir für Deine Schließfach-Bestellung mit der Bestell-Nr. #%1$s vom %2$s noch keinen Zahlungseingang verzeichnen können."
+msgstr ""
+
+#: templates/emails/wc-customer-reminder-order.php:20
+msgid "Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Andernfalls kann deine Bestellung nicht berücksichtigt werden."
+msgstr ""
+
+#: templates/emails/wc-customer-reminder-order.php:21, templates/emails/plain/wc-customer-reminder-order.php:31
+msgid "Solltest Du den Betrag in den letzten Tagen bereits überwiesen haben, so betrachte bitte dieses Schreiben als gegenstandslos."
+msgstr ""
+
+#: templates/emails/wc-customer-reminder-order.php:22, templates/emails/plain/wc-customer-reminder-order.php:32
+msgid "Viele Grüße,"
+msgstr ""
+
+#: templates/emails/wc-customer-reminder-order.php:23, templates/emails/plain/wc-customer-reminder-order.php:33
+msgid "Dein SafeBOXen-Team"
+msgstr ""
+
+#: templates/emails/plain/wc-customer-reminder-order.php:30
+msgid "Sicherlich hast Du übersehen, dass die oben genannte Bestellung noch nicht ausgeglichen wurde. Wir bitten Dich daher höflich, um Ausgleich des Betrags innerhalb der nächsten 5 Tage auf das unten genannte  Konto. Nach Ablauf der Frist wird Deine Bestellung automatisch storniert."
+msgstr ""
