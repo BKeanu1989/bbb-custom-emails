@@ -13,16 +13,22 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: emails/class-wc-customer-cancel-order.php:23
+#: emails/class-wc-customer-cancel-order.php:24
 msgid "Stornierte Bestellungsemail"
 msgstr ""
 
-#: emails/class-wc-customer-cancel-order.php:24
+#: emails/class-wc-customer-cancel-order.php:25
 msgid "Email bei stornierter Bestellung."
 msgstr ""
 
-#: emails/class-wc-customer-cancel-order.php:27
+#: emails/class-wc-customer-cancel-order.php:28
 msgid "Bestellung storniert"
+msgstr ""
+
+#. translators: placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: emails/class-wc-customer-cancel-order.php:30
+msgctxt "default email subject for cancelled emails sent to the customer"
+msgid "Schließfach-Bestellung abgebrochen [%s]"
 msgstr ""
 
 #: emails/class-wc-customer-reminder-order.php:23

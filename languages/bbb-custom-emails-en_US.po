@@ -12,8 +12,8 @@ msgstr ""
 "esc_html_x:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"POT-Creation-Date: 2019-05-24 10:04+0000\n"
-"PO-Revision-Date: 2019-05-24 10:07+0000\n"
+"POT-Creation-Date: 2019-06-03 07:12+0000\n"
+"PO-Revision-Date: 2019-06-03 07:12+0000\n"
 "Language-Team: English (United States)\n"
 "X-Generator: Loco https://localise.biz/\n"
 "Last-Translator: Kevin <developer.kevinfechner@gmail.com>\n"
@@ -23,17 +23,23 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "X-Loco-Version: 2.2.0; wp-4.9.8"
 
-#: emails/class-wc-customer-cancel-order.php:23
+#: emails/class-wc-customer-cancel-order.php:24
 msgid "Stornierte Bestellungsemail"
 msgstr "Cancelled order email"
 
-#: emails/class-wc-customer-cancel-order.php:24
+#: emails/class-wc-customer-cancel-order.php:25
 msgid "Email bei stornierter Bestellung."
 msgstr "Email for cancelled order."
 
-#: emails/class-wc-customer-cancel-order.php:27
+#: emails/class-wc-customer-cancel-order.php:28
 msgid "Bestellung storniert"
 msgstr "Order cancelled"
+
+#. translators: placeholder is {blogname}, a variable that will be substituted when email is sent out
+#: emails/class-wc-customer-cancel-order.php:30
+msgctxt "default email subject for cancelled emails sent to the customer"
+msgid "Schließfach-Bestellung abgebrochen [%s]"
+msgstr "Locker Order Cancelled"
 
 #: emails/class-wc-customer-reminder-order.php:23
 msgid "Zahlungserinnerungsemail"
